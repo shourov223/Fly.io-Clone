@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-inline: 32px;
+}
+
+.ul-shadow {
+  box-shadow: 0 0 0 1px rgba(32, 34, 55, 0.075), 0 10px 15px -3px rgba(32, 34, 55, 0.005), 0 4px 6px -4px rgba(32, 34, 55, 0.005);
+  background: linear-gradient(90deg, rgba(251, 207, 232, 0.40), rgba(221, 214, 254, 0.40), rgba(199, 210, 254, 0.40));
+}
+
+.btn-style {
+  box-shadow: 0 0 0 1px rgba(32, 34, 55, 0.075), 0 10px 15px -3px rgba(32, 34, 55, 0.005), 0 4px 6px -4px rgba(32, 34, 55, 0.005);
+  background: linear-gradient(90deg, rgb(251, 207, 232, 0.40), rgb(221, 214, 254, 0.40), rgb(199, 210, 254, 0.40));
+  border: 2px solid white;
+}
+.btn-1{
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.10), 0 1px 2px -1 rgba(0, 0, 0, 0.10);
+}
+.btn-2{
+  background: linear-gradient(-18deg,#A02BE4,#00000000,#4F46E5);
+}
+.bg_img{
+  background: url("./assets/banner_img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.btn{
+  background: linear-gradient(-12deg,#A02BE4,#00000000,#4F46E5);
+  color: black;
+  padding-block: 14px;
+  padding-inline: 20px;
+  font-size: 15px;
+  line-height: 23px;
+}
+.dev{
+  background: linear-gradient(-18deg,#FFFBEB,#FFF7ED,#FBCFE8);
+}
