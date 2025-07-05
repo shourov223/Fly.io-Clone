@@ -1,7 +1,9 @@
 import Banner from "../components/Banner"
 import Developers from "../components/Developers"
+import Fly from "../components/Fly"
 import InfiniteScrol from "../components/InfiniteScrol"
 import Sandbox from "../components/Sandbox"
+import Tech from "../components/Tech"
 
 
 const Home = () => {
@@ -9,8 +11,10 @@ const Home = () => {
     <>
       <Banner />
       <Sandbox />
-      <Developers/>
-      <InfiniteScrol/>
+      <Developers />
+      <InfiniteScrol />
+      <Tech />
+      <Fly />
     </>
   )
 }
