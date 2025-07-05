@@ -24,7 +24,7 @@ const Footer = () => {
           <div className="col-span-1">
             <ul className="flex flex-col gap-1">
               <ListHeading heading={"Articles"} />
-              <ListItem Tagname={Link} to={"/"} text={"Blog"} />
+              <ListItem Tagname={Link} to={"/blog"} text={"Blog"} />
               <ListItem Tagname={Link} to={"/"} text={"Phoenix Files"} />
               <ListItem Tagname={Link} to={"/"} text={"Laravel Bytes"} />
               <ListItem Tagname={Link} to={"/"} text={"Ruby Dispatch"} />

@@ -2,7 +2,7 @@ import { Link } from "react-router"
 
 const Banner = () => {
     return (
-        <section className="bg_img pt-[30px] sm:pt-[40px] md:pt-[50px]">
+        <section className="bg_img pt-20 sm:pt-[90px] md:pt-[100px]">
             <div className="container">
                 <h1 className="text-[#281950] text-[28px] sm:text-[36px] md:text-[48px] lg:text-[56px] xl:text-[63px] font-medium leading-[1.2] sm:leading-[1.25] md:leading-[1.3] lg:leading-[1.27] xl:leading-[80px] font-serif text-center max-w-[280px] sm:max-w-[400px] md:max-w-[500px] lg:max-w-[550px] xl:max-w-[605px] mx-auto tracking-[-1px] sm:tracking-[-1.5px] md:tracking-[-2px] lg:tracking-[-2.4px] xl:tracking-[-2.88px]">
                     Run User (or Robot) Code on Fly Machines

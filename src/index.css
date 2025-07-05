@@ -3,7 +3,7 @@
 @import "slick-carousel/slick/slick-theme.css";
 
 .container {
-  max-width: 1200px;
+  max-width: 1400px;
   margin: 0 auto;
   padding-inline: 32px;
 }
@@ -44,4 +44,12 @@
 }
 .tect{
   background: linear-gradient(-17deg,#A02BE4,#7C3AED,#4F46E5);
+}
+.blog_bg{
+  background: url("../src/assets/blog_page.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 148px;
 }
