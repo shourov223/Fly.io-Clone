@@ -1,9 +1,9 @@
-import Banner from "../components/Banner"
-import Developers from "../components/Developers"
-import Fly from "../components/Fly"
-import InfiniteScrol from "../components/InfiniteScrol"
-import Sandbox from "../components/Sandbox"
-import Tech from "../components/Tech"
+import Banner from "../components/Banner.jsx"
+import Developers from "../components/Developers.jsx"
+import Fly from "../components/Fly.jsx"
+import InfiniteScrol from "../components/InfiniteScrol.jsx"
+import Sandbox from "../components/Sandbox.jsx"
+import Tech from "../components/Tech.jsx"
 
 
 const Home = () => {
