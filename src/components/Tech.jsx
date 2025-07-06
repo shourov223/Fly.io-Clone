@@ -1,5 +1,5 @@
 import phoenix from "../assets/phoenix.svg"
-import s from "../assets/s.svg"
+import slogo from "../assets/slogo.svg"
 import rails from "../assets/rails.svg"
 import docker from "../assets/docker.svg"
 import go from "../assets/go.svg"
@@ -30,7 +30,7 @@ const Tech = () => {
           <div className="order-1 xl:order-2 w-full xl:w-auto flex justify-center">
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 gap-[12px] sm:gap-[16px] md:gap-[18px] lg:gap-[20px] xl:gap-[22px] max-w-[280px] sm:max-w-[360px] md:max-w-[400px] lg:max-w-[450px] xl:max-w-none">
               <Box image={phoenix} alt="Phoenix framework" name="Phoenix" />
-              <Box image={s} alt="Scala framework" name="Scala" />
+              <Box image={slogo} alt="Scala framework" name="Scala" />
               <Box image={rails} alt="Ruby on Rails" name="Rails" />
               <Box image={docker} alt="Docker" name="Docker" />
               <Box image={go} alt="Go language" name="Go" />
