@@ -12,7 +12,7 @@ import ten from "../assets/ten.jpg"
 import eleven from "../assets/eleven.jpg"
 import twelve from "../assets/twelve.jpg"
 
-const box = [
+export const box = [
     {
         id: 1,
         img: one,
@@ -154,7 +154,7 @@ const Blog = () => {
     )
 }
 
-const Items = ({ image, publish, time, title, text }) => {
+export const Items = ({ image, publish, time, title, text }) => {
     return (
         <div className="w-full max-w-[432px] mx-auto p-2 bg-white rounded-[16px] overflow-hidden hover:shadow hover:shadow-purple-400 transition-all duration-200">
             <div className="rounded-[10px] overflow-hidden">

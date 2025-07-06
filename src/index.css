@@ -53,3 +53,9 @@
   padding-top: 80px;
   padding-bottom: 148px;
 }
+.phoenix_banner{
+  background: url("../src/assets/phoenix-banner.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

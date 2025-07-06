@@ -10,10 +10,10 @@ const Navbar = () => {
 
     const nav = useRef(null)
 
-    window.addEventListener("scroll",()=>{
+    window.addEventListener("scroll", () => {
         if (window.scrollY > 100) {
             nav.current.style.background = "#665eeb"
-        } else{
+        } else {
             nav.current.style.background = "transparent"
         }
     })
@@ -29,8 +29,9 @@ const Navbar = () => {
 
                     {/* Desktop Navigation */}
                     <ul className="hidden lg:flex items-center gap-3 py-3 px-[25px] ul-shadow rounded-full">
+                        <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/"}>Home</Link></li>
                         <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/blog"}>Blog</Link></li>
-                        <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/"}>Phoenix Files</Link></li>
+                        <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/phoenix"}>Phoenix Files</Link></li>
                         <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/"}>Laravel Bytes</Link></li>
                         <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/"}>Ruby Dispatch</Link></li>
                         <li><Link className="hover:text-purple-700 transition-all duration-500 text-[#202237] font-medium text-[14px] leading-[22px] whitespace-nowrap" to={"/"}>Django Beats</Link></li>
@@ -49,9 +50,9 @@ const Navbar = () => {
                         className="lg:hidden flex flex-col items-center justify-center w-8 h-8 space-y-1 focus:outline-none"
                         aria-label="Toggle menu"
                     >
-                        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
-                        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
-                        <span className={`block w-6 h-0.5 bg-white transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
+                        <span className={`block w-6 h-0.5 bg-purple-600 transition-all duration-300 ${isMenuOpen ? 'rotate-45 translate-y-1.5' : ''}`}></span>
+                        <span className={`block w-6 h-0.5 bg-purple-600 transition-all duration-300 ${isMenuOpen ? 'opacity-0' : ''}`}></span>
+                        <span className={`block w-6 h-0.5 bg-purple-600 transition-all duration-300 ${isMenuOpen ? '-rotate-45 -translate-y-1.5' : ''}`}></span>
                     </button>
                 </div>
 
